@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-image: url(Pictures/sunset.jpeg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center; 
+    font-family: cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    color: azure;
+}
+
+* {
+    /* border: 10px solid brown; */
+}
+
+.emoji1-container {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 70%;
+    margin: 0;
+
+}
+
+.logo {
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    top: 1px;
+}
+
+.stating-feeling {
+    text-align: center;
+}
+
+.quote {
+    align-self: center;
+    bottom: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: max-content;
+    text-align: center;
+}

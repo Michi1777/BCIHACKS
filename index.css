@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-image: url(Pictures/sunset.jpeg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center; 
+    font-family: cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+}
+
+.logo {
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    top: 1px;
+}
+
+.header {
+    text-align: center;
+}
+
+.homepage-container {
+    /* border: 10px solid rgb(219, 124, 16); */
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    color: azure;
+}
+.image-container {
+    /* border: 2px solid rgb(69, 42, 165); */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 40vw;
+    height: min-content;
+}
+
+.emoji {
+    /* border: 2px solid rgb(69, 42, 165); */
+    width: 8.5vw;
+    height: 8.5vw;
+    object-fit: cover;
+}
